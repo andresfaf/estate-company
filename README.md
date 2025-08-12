@@ -7,7 +7,6 @@
 - Maspter -> Mapeo (Entities <> DTOs)
 - MediatR
 - NUnit
-- 
 ### Frontend
 - React + Vite + Ts
 - Material UI
@@ -138,6 +137,8 @@ docker ps
 ```
 
 ### Como ejecutar el backend
+- Tener instalado SDK de .NET 8
+- Si no es el caso, se puede descargar desde aqui: [https://dotnet.microsoft.com/en-us/download/dotnet/8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Abrir la solución que se encuentra en la carpeta backend en la raiz del repositorio "RealEstate.sln"
 - Tener ejecutado el MongoDb
 - Ejecutar proyecto
