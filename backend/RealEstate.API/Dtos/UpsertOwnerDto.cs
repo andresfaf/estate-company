@@ -1,0 +1,12 @@
+﻿namespace RealEstate.Application.DTOs
+{
+    public class UpsertOwnerDto
+    {
+        public string Id { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public string Address { get; set; } = string.Empty;
+        public DateOnly Birthday { get; set; }
+        public IFormFile? ImageFile { get; set; }
+        public bool SelectedFile { get; set; }
+}
+}
